@@ -1,0 +1,49 @@
+h1{
+    color:red;
+}
+.formdiv{
+    margin-left:4%;
+    margin-right:4%;
+}
+.head{
+    font-weight: bold;;
+    margin-bottom:10%;
+    text-decoration:underline ;
+    text-align: center;
+}
+.container{
+    margin-left:auto;
+    margin-right:auto;
+
+margin-top:5%;
+
+    border:5px solid  #204060;
+    border-radius: 30px;;
+    padding:5%;
+
+    box-shadow: 10px 10px 50px grey;
+    
+}
+.btn{
+    margin-top:7%;
+    width:100%;
+    border-radius:25px;
+    background-color:  #204060;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+form{
+  
+}
+.form-control{
+    border:0px solid white;
+    border-bottom: 2px solid  #75a3a3;
+    color:grey;
+    border-radius: 0px;
+    
+
+}
+div{
+    font-weight: bold;;
+}
