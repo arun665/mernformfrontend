@@ -6,7 +6,7 @@ import {FORM_DATA ,  FETCH_DATA} from './passType.js';
 
 export const addFormData=(name,email,states,contact,organisation,designation,experience)=>{
     var OPTIONS = {
-        url: "http://localhost:5000/api/add_data",
+        url: "https://mernformserver2.herokuapp.com/api/add_data",
         method: "POST",
         data:{name:name,email:email,number:contact,city:states,organisation:organisation,experience:experience,designation:designation},
         headers: {
@@ -39,7 +39,7 @@ export const FetchData=(name,email,states,contact,organisation,designation,exper
 
     return function(dispatch){
     var OPTIONS = {
-        url: "http://localhost:5000/api/getdata",
+        url: "https://mernformserver2.herokuapp.com/api/getdata",
         method: "GET",
 
         headers: {

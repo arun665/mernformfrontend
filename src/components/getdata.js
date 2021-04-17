@@ -23,7 +23,7 @@ console.log(Data);
 var AllCat=Data.map((val,i)=>(
     <tr key={i}>
     <td key={val._id}>{i+1}</td>
-     <td >{val._id}</td>
+     <td >{val.Email}</td>
       <td > {val.Name}</td>
       <td > {val.City}</td>
       <td > {val.Experience}</td>
@@ -41,7 +41,7 @@ return (
 <thead>
 <tr>
 <th > S.No.</th>
-  <th scope="col"> _id</th>
+  <th scope="col"> e-mail </th>
   <th scope="col"> name</th>    <th scope="col"> City /State</th>   <th scope="col"> Experience </th>   <th scope="col"> Organisation </th>   <th scope="col"> Designation</th>   <th scope="col"> Contact</th>
 
 
